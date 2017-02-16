@@ -1,7 +1,8 @@
 # For simple image-processing operations on python "Image" objects
-
-import Image
-import ImageFilter
+import sys
+sys.path.append('/usr/local/lib/python2.7/site-packages')
+from PIL import Image
+from PIL import ImageFilter
 import math
 import kd_array
 

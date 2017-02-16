@@ -1,4 +1,4 @@
-#VRML_SIM V6.0 utf8
+#VRML_SIM V8.5 utf8
 WorldInfo {
   info [
     "Description"
@@ -7,8 +7,8 @@ WorldInfo {
   ]
 }
 Viewpoint {
-  orientation -0.994897 0.0963791 0.0298562 0.603698
-  position 0.224572 1.83037 2.83725
+  orientation -0.91352905 0.329783 0.23813409 1.3377724
+  position 0.75561042 3.6396481 1.003332
 }
 Background {
   skyColor [
@@ -20,38 +20,102 @@ DirectionalLight {
   intensity 0.1
 }
 EPuck {
-  translation -0.589715 -0.00264542 0.29169
-  rotation -0.000223561 1 -1.64327e-06 -1.41873
+  hidden translation_1 -0.026121028 0.020001704 -2.4006288e-05
+  hidden rotation_1 0.99999809 0.00036343667 -0.0019178956 1.2100939
+  hidden translation_2 0.026120251 0.020002191 2.1541087e-05
+  hidden rotation_2 0.99997058 0.0032904659 0.006929218 -1.5256425
+  translation -0.19912219 -4.2252261e-05 0.14001461
+  rotation 0.00060399103 0.99999728 -0.0022515076 2.4847488
   controller "swarm_controller"
 }
 EPuck {
-  translation 0.670658 -0.00265411 -0.529468
-  rotation -0.0111627 0.999931 -0.00353501 -0.627308
+  hidden linearVelocity_0 -1.79065e-06 1.38222e-06 2.70988e-07
+  hidden angularVelocity_0 5.03051e-06 -1.91643e-05 -8.97063e-05
+  hidden translation_1 -0.026 0.020001904 -1.2545483e-06
+  hidden rotation_1 1 7.968623e-08 -3.9042517e-08 -2.5798834
+  hidden linearVelocity_1 -1.84267e-06 1.22423e-06 2.96534e-07
+  hidden angularVelocity_1 1.48782e-05 -7.45154e-06 6.27991
+  hidden translation_2 0.026 0.0200019 -1.2592738e-06
+  hidden rotation_2 1 9.1417241e-08 2.7226272e-08 2.2138396
+  hidden linearVelocity_2 -8.41371e-07 1.48239e-06 2.96541e-07
+  hidden angularVelocity_2 1.48786e-05 -7.45092e-06 6.27991
+  translation -0.35826504 -4.2168727e-05 0.70552714
+  rotation 0.0020479311 0.9999958 -0.0020496157 1.5708016
   controller "swarm_controller"
 }
 EPuck {
-  translation -0.259479 -0.00264828 0.683194
-  rotation 0.000230233 1 -0.000420399 2.54131
+  hidden linearVelocity_0 1.48254e-06 6.12865e-06 -1.80456e-06
+  hidden angularVelocity_0 -0.000660089 -9.86058e-06 0.000142719
+  hidden translation_1 -0.025999201 0.020001479 -1.7831589e-06
+  hidden rotation_1 1 -1.3800975e-06 2.538714e-07 0.79712692
+  hidden linearVelocity_1 6.7991e-07 1.53742e-05 -4.86309e-06
+  hidden angularVelocity_1 2.34689 -0.000594472 0.894103
+  hidden translation_2 0.026000655 0.020001248 -1.4611015e-06
+  hidden rotation_2 1 2.2555694e-07 1.3291578e-06 -2.8438382
+  hidden linearVelocity_2 8.58372e-07 -3.4016e-06 -5.34792e-06
+  hidden angularVelocity_2 5.86821 -0.00147121 2.23505
+  translation -0.7081961 -1.4660799e-05 0.21078859
+  rotation 0.00084423514 0.99999179 -0.003963481 2.7777439
   controller "swarm_controller"
 }
 EPuck {
-  translation -0.532158 -0.00264116 -0.460462
-  rotation 0.00317021 0.999995 0.000396834 0.432302
+  hidden linearVelocity_0 -0.0188293 -2.42894e-06 0.000174853
+  hidden angularVelocity_0 -0.00110603 -0.589395 0.00256017
+  hidden translation_1 -0.026007002 0.020001961 -1.7735739e-06
+  hidden rotation_1 0.99997032 0.0034556652 0.0068865722 0.38793982
+  hidden linearVelocity_1 -0.0275616 6.73612e-05 0.012779
+  hidden angularVelocity_1 5.16065 -0.600727 3.57952
+  hidden translation_2 0.026007304 0.020001079 -1.1594363e-07
+  hidden rotation_2 0.99999883 0.0013347754 -0.00074365252 -2.6672182
+  hidden linearVelocity_2 -0.0101029 -7.34925e-05 -0.0124141
+  hidden angularVelocity_2 5.16065 -0.600727 3.57952
+  translation -0.63466391 -1.1453038e-05 0.35856674
+  rotation 0.0014900624 0.99999587 -0.0024574593 2.518106
   controller "swarm_controller"
 }
 EPuck {
-  translation 0.0918688 -0.0026581 -0.678657
-  rotation 0.00433939 0.99999 0.000809101 -0.570031
+  hidden linearVelocity_0 -6.28633e-05 2.85695e-05 5.91181e-05
+  hidden angularVelocity_0 0.00190361 -0.00289467 -0.00123088
+  hidden translation_1 -0.025999132 0.020002049 -1.749162e-06
+  hidden rotation_1 1 6.8012632e-06 2.4115975e-06 1.0347064
+  hidden linearVelocity_1 -8.06503e-05 -1.71339e-05 0.00013998
+  hidden angularVelocity_1 2.38338 -0.00858267 0.797953
+  hidden translation_2 0.026 0.020001095 -6.627785e-10
+  hidden rotation_2 1 -1.1590138e-05 -2.0663719e-05 -0.73877831
+  hidden linearVelocity_2 -3.25843e-05 7.46959e-05 -2.53032e-06
+  hidden angularVelocity_2 5.95559 -0.0171207 1.99672
+  translation -0.63435983 1.0654711e-05 0.28471503
+  rotation 0.0018506379 0.99999007 -0.0040546535 2.8177446
   controller "swarm_controller"
 }
 EPuck {
-  translation 0.388242 -0.00264954 -0.0394214
-  rotation 0.000334647 1 -0.000524847 1.99754
+  hidden linearVelocity_0 -3.18038e-05 2.13952e-05 -1.04208e-05
+  hidden angularVelocity_0 0.000214717 -0.000476231 0.001434
+  hidden translation_1 -0.026 0.020001102 1.2176138e-09
+  hidden rotation_1 1 -1.2866381e-06 3.0234439e-06 1.0799673
+  hidden linearVelocity_1 -3.97652e-05 5.82408e-05 3.00752e-06
+  hidden angularVelocity_1 2.50664 -0.0014399 0.168675
+  hidden translation_2 0.026 0.020001096 1.8051626e-09
+  hidden rotation_2 1 4.5530568e-06 1.0003019e-06 -2.1220823
+  hidden linearVelocity_2 -3.81449e-05 -1.54187e-05 -2.16971e-05
+  hidden angularVelocity_2 6.26628 -0.00289082 0.419541
+  translation -0.70819848 3.2966729e-05 0.28472852
+  rotation 0.00031177723 0.99999103 -0.0042237331 3.0749572
   controller "swarm_controller"
 }
 EPuck {
-  translation 0.50646 -0.0026416 0.60165
-  rotation 0.000136248 1 -0.000549315 -2.24527
+  hidden linearVelocity_0 -0.0185435 2.43976e-05 -2.1494e-05
+  hidden angularVelocity_0 -0.000222774 0.497858 -0.00329174
+  hidden translation_1 -0.026006169 0.020001601 9.5689304e-07
+  hidden rotation_1 0.99999901 0.0012013769 -0.00072824031 -1.6048517
+  hidden linearVelocity_1 -0.0179992 -5.96599e-05 -0.0129525
+  hidden angularVelocity_1 -5.02007 0.49296 -0.207586
+  hidden translation_2 0.026003912 0.020002813 1.4058697e-06
+  hidden rotation_2 0.99999946 0.0010432334 -3.2254762e-05 -2.6329259
+  hidden linearVelocity_2 -0.0190518 0.000107542 0.0129139
+  hidden angularVelocity_2 -5.02007 0.49296 -0.207586
+  translation -0.70841198 -5.7731917e-05 0.35836091
+  rotation -0.00059826341 0.99999977 0.00032111581 3.1156888
   controller "swarm_controller"
 }
 DEF WALL-1 Solid {
@@ -137,7 +201,7 @@ DEF WALL-4 Solid {
   }
 }
 DEF FLOOR Solid {
-  translation 0 -0.005 0
+  translation 0.033247471 -0.005 -0.021131818
   children [
     DEF FLOOR-SHAPE Shape {
       appearance Appearance {
@@ -162,7 +226,8 @@ DEF FLOOR Solid {
   }
 }
 DEF FOOD Solid {
-  translation 0 0.029682 0
+  translation -0.57007142 0.049846461 0.57023966
+  rotation -0.80073512 0.58672953 -0.12071345 0.00045340292
   children [
     PointLight {
       location 0 1 0
@@ -190,4 +255,6 @@ DEF FOOD Solid {
     density -1
     mass 0.35
   }
+  linearVelocity -6.2113747e-07 1.8769872e-05 4.1535478e-06
+  angularVelocity 0.00010851497 -2.6197502e-06 3.7123814e-06
 }

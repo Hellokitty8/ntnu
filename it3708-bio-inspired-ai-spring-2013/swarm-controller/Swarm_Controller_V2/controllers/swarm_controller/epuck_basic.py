@@ -1,8 +1,9 @@
-
+import sys
+sys.path.append('/usr/local/lib/python2.7/site-packages')
 from controller import *   # controller comes with Webots
 import time                # A Python primitive module
 import math                #   "            "
-import Image               # An extra Python module (that you'll have to download)
+from PIL import Image            # An extra Python module (that you'll have to download)
 import imagepro            # A module provided by Keith Downing for this assignment
 
 # This is the basic class for controlling an epuck robot in the Webots simulator.  In theory, the
@@ -100,7 +101,7 @@ class EpuckBasic (DifferentialWheels):
 
 # This gets called by ANNs when they want their associated agent to do it's timestep of activity.  The setting of
 # motor values and the reading of sensors are done by other ANN code such that run_timestep just needs to
-# activate the bot for a brief period (with the current motor settings in effect).
+# activate the robot for a brief period (with the current motor settings in effect).
 
   def run_timestep(self, cycles = 1):
       for i in range(cycles):
